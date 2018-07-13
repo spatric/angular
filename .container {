@@ -1,0 +1,31 @@
+.container {
+max-width: 960px;
+width: 92%;
+margin: 0 auto;
+}
+.grid_6,
+.grid_8,
+.grid_10,
+.grid_16 {
+display:inline;
+float: left;
+position: relative;
+margin-left: 1%;
+margin-right: 1%;
+}
+
+.container .grid_6 {
+width:35.5%;
+}
+
+.container .grid_8 {
+width:48.0%;
+}
+
+.container .grid_10 {
+width:60.5%;
+}
+
+.container .grid_16 {
+width:98.0%;
+}

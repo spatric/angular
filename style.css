@@ -1,0 +1,63 @@
+.cls-layout-izquierda {
+	width: 20%;
+	float: left;
+	background: blue;
+	position: relative;
+}
+
+.cls-layout-derecha {
+	width: 78%;
+	float: right;
+	background: yellow;
+	position: relative;
+}
+
+.content {
+	width: 100%;
+	float: left;
+	position: relative;
+	background:orange;
+}
+
+img	{
+	width: 250px;
+	height: 300px;
+}
+
+.cls-generica {
+	    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+}
+
+.cls-generica .left {
+	width: 18%;
+	float: left;
+	background: blue;
+	position: relative;
+	border: 1px solid pink;
+	margin: 2px;
+	padding: 2px;
+
+}
+
+.cls-generica .left img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	border: 1px solid pink;
+}
+
+.cls-generica .right {
+	width: 78%;
+	float: right;
+	background: yellow;
+	position: relative;
+	border: 1px solid pink;
+	margin: 2px;
+	padding: 2px;
+}
